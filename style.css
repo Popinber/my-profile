@@ -1,0 +1,129 @@
+h1 {
+color: #3B064D;
+font-family: TrebuchetMS;
+font-size: 28px
+
+}
+
+
+img {
+  border-radius: 60%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #8186d5
+}
+
+
+ div {
+  width: 600px;
+  margin: 10px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 1px;
+    box-shadow: 0 10px 15px rgba(50,50,50,0.1)
+  }
+
+
+h2, h3 {  
+
+font-size: 20px;
+font-family: TrebuchetMS;
+color:#3B064D;
+
+}
+
+.button {
+ background: #3B064D ;
+  color: #FFFFFF; 
+  border-radius: 10px; 
+  border: 1px solid #8186d5; 
+  font-size: 17px; 
+  font-family: futura;
+  width: 95px; 
+  padding: 10px; 
+  cursor: pointer; 
+  box-shadow: 0px 10px 30px;  
+
+  } 
+
+.button:hover {
+
+background-color: #5C1CEE;
+color: #FFFFFF ;
+
+}
+
+body {
+  text-align: center;
+	background-color:#FCF6FF;
+	font-family: Avenir next;
+  font-size: 17 color:#3B064D ;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	 
+  }
+  
+
+p {
+	font-size: 17px;
+  font-family:Avenir next;
+  color: #2D0441;
+
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+color: #5C1CEE;
+transition: 0.3sec ease;
+font-size: 18; 
+
+}
+
+/*custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba (0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px
+  text-align: center;
+}
+
+.img-circle {
+border radius: 50%
+border-style: solid;
+border-width: 4px;
+border-color: #8186d5
+ }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li  {
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 760px) {
+   .container {
+   width: 600px;  
+  }
+}
+
+
+@media (max-width: 500px) {
+   .container {
+   width: 400px;  
+  }
+}
+
+}
+}
